@@ -1,0 +1,64 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#container {
+  margin: 10px auto;
+  width: 100%;
+}
+
+#container #row {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#row div {
+  height: 125px;
+  width: 125px;
+  margin: 20px 10px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  line-height:  125px;
+  font-weight: 800;
+}
+
+
+#logo {
+  margin: -30px auto;
+}
+
+.green {
+  background: rgba(63, 191, 63, 0.5) none;
+}
+
+.green:hover {
+  background: rgba(63, 191, 63, 0.8) none;
+}
+
+.blue {
+  background: rgba(35, 25, 235, 0.5) none;
+}
+
+.blue:hover {
+  background: rgba(35, 25, 235, 0.8) none;
+}
+
+.red {
+  background: rgba(235, 35, 25, 0.5) none;
+}
+
+.red:hover {
+  background: rgba(235, 35, 25, 0.8) none;
+}
+
+.purple {
+  background: rgba(142, 63, 191, 0.5) none;
+}
+
+.purple:hover {
+  background: rgba(142, 63, 191, 0.8) none;
+}
